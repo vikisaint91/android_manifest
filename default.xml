@@ -8,7 +8,8 @@
 
   <remote  name="github"
            fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.org" />
+           review="review.cyanogenmod.org"
+           revision="refs/heads/cm-12.1" />  
   
   <remote  name="own"
            fetch="https://github.com/vikisaint91"
