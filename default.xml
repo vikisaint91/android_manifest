@@ -7,15 +7,19 @@
            revision="refs/tags/android-5.1.1_r37" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
-
+  
+  <remote  name="own"
+           fetch="https://github.com/vikisaint91"
+           revision="refs/heads/nanopi2-lollipop-mr1" />    
+  
   <remote  name="origin"
            fetch="https://github.com/friendlyarm"
            revision="refs/heads/s5p4418-lollipop-mr1" />
 
   <default revision="refs/heads/nanopi2-lollipop-mr1"
-           remote="https://github.com/vikisaint91"
+           remote="own"
            sync-c="true"
            sync-j="4" />
 
