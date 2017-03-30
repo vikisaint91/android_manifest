@@ -14,8 +14,8 @@
            fetch="https://github.com/friendlyarm"
            revision="refs/heads/s5p4418-lollipop-mr1" />
 
-  <default revision="refs/heads/cm-12.1"
-           remote="github"
+  <default revision="refs/heads/nanopi2-lollipop-mr1"
+           remote="https://github.com/vikisaint91"
            sync-c="true"
            sync-j="4" />
 
