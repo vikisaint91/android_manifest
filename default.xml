@@ -18,10 +18,7 @@
            fetch="https://github.com/friendlyarm"
            revision="refs/heads/s5p4418-lollipop-mr1" />
 
-  <default revision="refs/heads/nanopi2-lollipop-mr1"
-           remote="own"
-           sync-c="true"
-           sync-j="4" />
+ 
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
